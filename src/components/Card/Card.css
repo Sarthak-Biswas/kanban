@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    background-color: #f6f6f6;
+    margin: 6px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 0px 4px #ccc;
+}
+
+.card_footer span{
+    border: 1px solid #e1e1e1;
+    min-width: fit-content;
+    margin: 2px;
+    padding: 2px 4px;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    border-radius: 3px;
+}
+
+.card_header{
+    color: gray;
+}
+
+.card_body{
+    margin-bottom: 15px;
+}

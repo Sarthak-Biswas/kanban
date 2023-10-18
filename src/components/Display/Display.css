@@ -1,0 +1,93 @@
+.display_box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    padding: 10px 8px;
+    background-color: #f6f6f6;
+}
+
+.display_box span{
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+}
+
+.display_box button{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 6px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #ccc;
+    cursor: pointer;
+}
+
+.display_box button svg{
+    stroke: rgb(69, 68, 68);
+    stroke-width: 2.5;
+    width: 13px;
+    height: 13px;
+}
+
+.order{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+    margin-bottom: 3px;
+}
+
+.group{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 126px;
+    margin-bottom: 10px;
+}
+
+.group_dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 205px;
+    top: 40px;
+    gap: 3px;
+    border: 1px solid rgb(121, 121, 121);
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #c6c6c6;
+    box-shadow: 0px 0px 10px #acacac;
+}
+
+.group_dropdown button{
+    display: flex;
+    padding: 3px 16px;
+    justify-content: center;
+}
+
+.order_dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 208px;
+    top: 75px;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: #c6c6c6;
+    gap: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #acacac;
+}
+
+.order_dropdown button{
+    display: flex;
+    padding: 3px 16px;
+    justify-content: center;
+}

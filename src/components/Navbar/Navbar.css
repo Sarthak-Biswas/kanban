@@ -1,0 +1,30 @@
+.display_button{
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #ccc;
+    cursor: pointer;
+}
+
+.button_content{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button_content svg{
+    stroke: rgb(69, 68, 68);
+    stroke-width: 2.5;
+    width: 14px;
+    height: 14px;
+}
+
+.slider{
+    transform: rotate(90deg);
+}
+
+.popup{
+    position: absolute;
+    top: 60px;
+}
